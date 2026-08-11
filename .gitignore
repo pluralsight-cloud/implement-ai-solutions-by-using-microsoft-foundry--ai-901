@@ -1,0 +1,17 @@
+# Environment
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Demo output
+demos/**/output/
+demos/**/*.png
+demos/**/*.wav
+demos/**/results.json
+
+# Editor / OS
+.DS_Store
+.vscode/settings.json

@@ -1,0 +1,5 @@
+python-dotenv~=1.0
+openai~=2.8
+azure-ai-textanalytics~=5.3
+azure-cognitiveservices-speech~=1.50
+azure-ai-contentunderstanding~=1.1
