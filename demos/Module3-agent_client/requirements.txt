@@ -1,0 +1,6 @@
+# azure-ai-projects 2.x targets the Foundry projects (new) API.
+# It pulls in openai and azure-identity, pinned here so the lockfile is explicit.
+azure-ai-projects~=2.4
+openai~=2.8
+azure-identity~=1.19
+python-dotenv~=1.0
