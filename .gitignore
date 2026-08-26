@@ -9,7 +9,6 @@ __pycache__/
 # Demo output
 demos/**/output/
 demos/**/*.png
-demos/**/*.wav
 demos/**/results.json
 
 # Editor / OS
