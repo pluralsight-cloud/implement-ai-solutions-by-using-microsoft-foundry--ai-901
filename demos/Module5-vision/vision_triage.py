@@ -85,8 +85,7 @@ def triage(client: OpenAI, data_url: str, detail: str):
                 ],
             }
         ],
-        # Images eat input tokens, so leave room for the answer. `max_tokens`
-        # on Chat Completions, `max_completion_tokens` on reasoning models.
+        # Images eat input tokens, so leave room for the answer.
         max_output_tokens=600,
     )
 
