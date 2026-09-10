@@ -57,7 +57,7 @@ def image_data_url(path: str) -> str:
     # The other option is a public HTTPS URL, which the service fetches
     # itself, so a local file or anything private is out. Media type has to
     # match the file: PNG, JPEG, GIF, or WEBP.
-    return f"data:image/png;base64,{encoded}"
+    return f"data:image/jpg;base64,{encoded}"
 
 
 def triage(client: OpenAI, data_url: str, detail: str):
