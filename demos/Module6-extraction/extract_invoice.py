@@ -127,6 +127,9 @@ def main() -> None:
     print(f"Analyzer: {ANALYZER_ID}")
     print(f"Document: {DOCUMENT_PATH}")
     print(f"Models:   {MODEL_DEPLOYMENT}, {EMBEDDING_DEPLOYMENT}\n")
+    print(f"Supported completion models: {client.get_analyzer(ANALYZER_ID).supported_models.completion}")
+    print(f"Supported embedding models: {client.get_analyzer(ANALYZER_ID).supported_models.embedding}\n")
+
     pause()
 
     poller = start_analysis(client, DOCUMENT_PATH)
